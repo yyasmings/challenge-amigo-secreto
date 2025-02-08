@@ -1,6 +1,7 @@
 let amigos = [];
+let amigoSecreto = gerarNomeAleatorio();
 
-function adicionarAmigos() {
+function adicionarAmigo() {
    let inserirNomes = document.getElementById("amigo");
    let salvarNomes = inserirNomes.value.trim();
 
@@ -22,4 +23,8 @@ function atualizarLista() {
       item.textContent = amigos[i];
       lista.appendChild(item);
    }
+}
+
+function gerarNomeAleatorio() {
+   
 }
