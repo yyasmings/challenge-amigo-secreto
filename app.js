@@ -26,22 +26,23 @@ function atualizarLista() {
 }
 
 function sortearAmigo() {
-   if (amigos.length === 0) {
+   if (amigos.length === 0 && sorteados.length > 0) {
+      alert ("Todos os nomes já foram sorteados! A página será atualizada.");
+      location.reload();
+      return;
+   } else if (amigos.length === 0) {
       alert("Opa, você não adicionou nenhum amigo, faça isso antes de sortear!");
       return
    }
 
-   let indiceAleatorio;
-   let nomeSorteado;
-
-   do {
-      indiceAleatorio = Math.floor(Math.random() * amigos.length);
-      nomeSorteado = amigos[indiceAleatorio];
-   } while (sorteados.includes(nomeSorteado));
+   let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+   let nomeSorteado = amigos[indiceAleatorio];
 
    sorteados.push(nomeSorteado);
    amigos.splice(indiceAleatorio, 1);
    
    document.getElementById("resultado");
    resultado.innerHTML = `O amigo sorteado é: ${nomeSorteado}`;
+
+   
 }
