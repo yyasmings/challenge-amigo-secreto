@@ -28,6 +28,4 @@ function atualizarLista() {
 function gerarNomeAleatorio() {
    let nomeEscolhido = Math.floor(Math.random() * amigos.length);
    let nomeSorteado = amigos[nomeEscolhido];
-
-   document.getElementById("resultado").innerHTML = "O amigo sorteado foi" + nomeSorteado;
 }
