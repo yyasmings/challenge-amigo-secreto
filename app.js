@@ -1,5 +1,5 @@
 let amigos = [];
-let amigoSecreto = gerarNomeAleatorio();
+let amigoSecreto = sortearAmigo();
 
 function adicionarAmigo() {
    let inserirNomes = document.getElementById("amigo");
@@ -25,7 +25,11 @@ function atualizarLista() {
    }
 }
 
-function gerarNomeAleatorio() {
-   let nomeEscolhido = Math.floor(Math.random() * amigos.length);
-   let nomeSorteado = amigos[nomeEscolhido];
+function sortearAmigo() {
+   let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+   let nomeSorteado = amigos[indiceAleatorio];
+   
+   
+   document.getElementById("resultado");
+   resultado.innerHTML = `O amigo sorteado foi: ${nomeSorteado}`;
 }
