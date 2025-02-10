@@ -43,6 +43,4 @@ function sortearAmigo() {
    
    document.getElementById("resultado");
    resultado.innerHTML = `O amigo sorteado é: ${nomeSorteado}`;
-
-   
 }
