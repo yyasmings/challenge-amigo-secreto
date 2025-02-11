@@ -14,7 +14,6 @@
 <ul>
   <li>Adicionar participantes ao sorteio.</li>
   <li>Impedir nomes duplicados na lista.</li>
-  <li>Realizar o sorteio garantindo que ninguém se auto-sorteie.</li>
   <li>Exibir o resultado do sorteio para cada participante.</li>
 </ul>
 
