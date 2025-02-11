@@ -24,6 +24,11 @@
 </ul>
 
 ## :file_folder: Acesso ao projeto
+<p>
+  O projeto está disponível online via GitHub Pages. 
+  <br>Você pode acessá-lo através do seguinte link:
+</p>
+<a href = "https://yyasmings.github.io/challenge-amigo-secreto/"> Amigo Secreto - GitHub Pages</a>
 
 ## :sparkles: Autor 
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/105134228?v=4" width=115><br><sub>Yasmin Gomes Souza</sub>](https://github.com/yyasmings)
